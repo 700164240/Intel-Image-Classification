@@ -85,7 +85,7 @@ pip install -r requirements.txt
 3.Modeli eğitin ve sonuçları results/ klasöründe inceleyin.
 ## 📥 Dataset
 
-Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet6060/intel-image-classification üzerinden indirebilirsiniz.
+Intel Image Classification veri setini (https://www.kaggle.com/datasets/puneet6060/intel-image-classification) üzerinden indirebilirsiniz.
 
 
 
