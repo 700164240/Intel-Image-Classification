@@ -1,97 +1,88 @@
-# 🌿 Doğa Görüntüleri Sınıflandırma Projesi
+# 🏞️ Intel Image Classification with CNN
 
-Bu proje, farklı doğa görüntülerini sınıflandırmak için **Convolutional Neural Network (CNN)** kullanan bir makine öğrenmesi uygulamasıdır.  
-Toplam **6 sınıf** mevcuttur: `mountain`, `street`, `buildings`, `sea`, `forest`, `glacier`.
-
-Model, eğitim verileri ile öğrenir, doğrulama ile test edilir ve Grad-CAM ile modelin dikkat ettiği bölgeler görselleştirilir.
+Bu proje, **Convolutional Neural Networks (CNN)** kullanarak **Intel Image Classification** veri setindeki 6 farklı sınıfı sınıflandırmayı amaçlamaktadır.
 
 ---
 
-## 📂 Dosya Yapısı
+## 📂 Proje Yapısı
 
-project_root/
-│
-├── notebooks/
-│ └── notebooks_CNN_Notebook.ipynb # Çalıştırılabilir notebook
-├── results/
-│ ├── accuracy_loss.png # Eğitim/Doğrulama grafikleri
-│ └── confusion_matrix.png # Confusion matrix görsellemesi
-├── src/
-│ └── model.py # CNN modeli
-├── .gitignore
-├── README.md
-└── requirements.txt
+project/
+│── notebooks/
+│ └── CNN_Notebook.ipynb # Eğitim süreci ve analizler
+│── src/
+│ └── model.py # Model tanımı (CNN)
+│── results/
+│ ├── sample_images/ # Dataset’ten örnek görseller
+│ │ ├── forest.jpg
+│ │ ├── mountain.jpg
+│ │ ├── sea.jpg
+│ │ ├── buildings.jpg
+│ │ ├── glacier.jpg
+│ │ └── street.jpg
+│ ├── accuracy_loss.png # Eğitim / doğrulama grafiği
+│ ├── confusion_matrix.png # Karışıklık matrisi
+│── .gitignore
+│── README.md
+│── requirements.txt
 
 
-
-> Not: `saved_models/intel_cnn_model.h5` bu repoda yoktur. Modeli notebook ile eğittikten sonra kaydedebilirsiniz.
-
----
-
-## 📊 Model Sonuçları
-
-- Eğitim ve doğrulama **accuracy / loss** grafikleri: `results/accuracy_loss.png`
-- Confusion matrix görsellemesi: `results/confusion_matrix.png`
 
 ---
 
-## ⚡ Kurulum
+## 📷 Örnek Görseller
 
-1. Repo’yu klonlayın veya ZIP olarak indirin.
-2. Gerekli kütüphaneleri yükleyin:
+<p align="center">
+  <img src="results/sample_images/forest.jpg" alt="Forest" width="150"/>
+  <img src="results/sample_images/mountain.jpg" alt="Mountain" width="150"/>
+  <img src="results/sample_images/sea.jpg" alt="Sea" width="150"/>
+  <img src="results/sample_images/buildings.jpg" alt="Buildings" width="150"/>
+  <img src="results/sample_images/glacier.jpg" alt="Glacier" width="150"/>
+  <img src="results/sample_images/street.jpg" alt="Street" width="150"/>
+</p>
 
+---
 
+## ⚙️ Kullanılan Teknolojiler
+
+- Python 🐍  
+- TensorFlow / Keras 🤖  
+- Matplotlib 📊  
+- NumPy 🔢  
+- Scikit-learn 📈  
+
+---
+
+## 🚀 Eğitim Sonuçları
+
+### 📊 Accuracy / Loss Grafiği
+<p align="center">
+  <img src="results/accuracy_loss.png" alt="Accuracy Loss" width="500"/>
+</p>
+
+### 📌 Confusion Matrix
+<p align="center">
+  <img src="results/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
+</p>
+
+### 🔥 Grad-CAM Örneği
+<p align="center">
+  <img src="results/gradcam_example.png" alt="GradCAM" width="500"/>
+</p>
+
+---
+
+## 📦 Kurulum
+
+```bash
+# Gerekli kütüphaneleri yükle
 pip install -r requirements.txt
+📌 Çalıştırma
 
-🚀 Kullanım
+1.Dataset’i indirin ve intel_data/ klasörüne yerleştirin.
 
-notebooks/notebooks_CNN_Notebook.ipynb dosyasını açın.
+2.notebooks/CNN_Notebook.ipynb dosyasını açın.
 
-Kaggle veya kendi bilgisayarınızdan dataset yükleyin.
-
-Hücreleri sırayla çalıştırın:
-
-Dataset yükleme ve unzip
-
-Veri augmentasyonu ve train/validation split
-
-CNN modeli oluşturma ve eğitme
-
-Accuracy/loss grafikleri ve confusion matrix görselleştirme
-
-Grad-CAM ile model dikkat alanlarını görselleştirme
-
-(Opsiyonel) Model kaydetme
-
-🛠️ Gereksinimler
-
-Python 3.8+
-
-TensorFlow
-
-NumPy
-
-OpenCV
-
-Matplotlib
-
-Seaborn
-
-scikit-learn
-
-📈 Proje Özellikleri
-
-CNN tabanlı sınıflandırma modeli
-
-BatchNormalization ve Dropout ile overfitting önleme
-
-EarlyStopping ile validation loss kontrolü
-
-Augmentation ile veri çeşitlendirme
-
-Grad-CAM ile model açıklanabilirliği
-
-6 sınıf: mountain, street, buildings, sea, forest, glacier
+3.Modeli eğitin ve sonuçları results/ klasöründe inceleyin.
 
 
 
