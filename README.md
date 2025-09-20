@@ -73,19 +73,13 @@ project/
 
 ## 📦 Kurulum
 
-```bash
+
 # Gerekli kütüphaneleri yükle
 pip install -r requirements.txt
-📌 Çalıştırma
 
-1.Dataset’i indirin ve intel_data/ klasörüne yerleştirin.
-
-2.notebooks/CNN_Notebook.ipynb dosyasını açın.
-
-3.Modeli eğitin ve sonuçları results/ klasöründe inceleyin.
 ## 📥 Dataset
 
-Intel Image Classification veri setini (https://www.kaggle.com/datasets/puneet6060/intel-image-classification) üzerinden indirebilirsiniz.
+Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet6060/intel-image-classification üzerinden indirebilirsiniz.
 
 
 
