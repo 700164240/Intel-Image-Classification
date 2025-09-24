@@ -64,12 +64,7 @@ project/
   <img src="results/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
 </p>
 
-### 🔥 Grad-CAM Örneği
-<p align="center">
-  <img src="results/gradcam_example.png" alt="GradCAM" width="500"/>
-</p>
 
----
 
 ## 📦 Kurulum
 
