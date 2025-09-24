@@ -72,6 +72,9 @@ project/
 # Gerekli kütüphaneleri yükle
 pip install -r requirements.txt
 
+##Kaggle Notebook Linki:https://www.kaggle.com/code/nuraylaraaar/ntel-mage-classification-cnn/edit
+
+
 ## 📥 Dataset
 
 Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet6060/intel-image-classification üzerinden indirebilirsiniz.
