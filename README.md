@@ -5,6 +5,7 @@ Bu proje, **Convolutional Neural Networks (CNN)** kullanarak **Intel Image Class
 ---
 🔗 Kaggle Notebook
 https://www.kaggle.com/code/nuraylaraaar/cnn-notebookss-dl?scriptVersionId=264186351
+
 📥 Dataset
 
 Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet6060/intel-image-classification indirebilirsiniz
