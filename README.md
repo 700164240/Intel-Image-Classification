@@ -13,7 +13,8 @@ Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet606
 
 project/
 │── notebooks/
-│ └── CNN_Notebook.ipynb # Eğitim süreci ve analizler
+│ 
+└── CNN_Notebook.ipynb # Eğitim süreci ve analizler
 │── src/
 │ └── model.py # Model tanımı (CNN)
 │── results/
