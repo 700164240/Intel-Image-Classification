@@ -3,7 +3,11 @@
 Bu proje, **Convolutional Neural Networks (CNN)** kullanarak **Intel Image Classification** veri setindeki 6 farklı sınıfı sınıflandırmayı amaçlamaktadır.
 
 ---
+🔗 Kaggle Notebook
+https://www.kaggle.com/code/nuraylaraaar/cnn-notebookss-dl?scriptVersionId=264186351
+📥 Dataset
 
+Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet6060/intel-image-classification indirebilirsiniz
 ## 📂 Proje Yapısı
 
 project/
@@ -79,8 +83,4 @@ Gerekli kütüphaneleri yükle:
 
 ```bash
 pip install -r requirements.txt
-🔗 Kaggle Notebook
 
-📥 Dataset
-
-Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet6060/intel-image-classification indirebilirsiniz
