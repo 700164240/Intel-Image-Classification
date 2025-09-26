@@ -25,8 +25,6 @@ project/
 │── README.md
 │── requirements.txt
 
-
-
 ---
 
 ## 📷 Örnek Görseller
@@ -64,20 +62,25 @@ project/
   <img src="results/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
 </p>
 
+---
 
+## 🔧 İyileştirme Önerileri / Gelecek Çalışmalar
+
+- Transfer Learning (VGG16, ResNet50, EfficientNet vb.) ile doğruluk artırılabilir.  
+- Hiperparametre optimizasyonu: filter sayıları, kernel boyutu, dropout oranı, batch size ve learning rate ile denemeler yapılabilir.  
+- Ek Data Augmentation teknikleri: brightness, color jitter, channel shift uygulanabilir.  
+- Model izleme: TensorBoard veya Weights & Biases entegrasyonu ile eğitim süreci detaylı takip edilebilir.  
+
+---
 
 ## 📦 Kurulum
 
+Gerekli kütüphaneleri yükle:
 
-# Gerekli kütüphaneleri yükle
+```bash
 pip install -r requirements.txt
+🔗 Kaggle Notebook
 
-##Kaggle Notebook Linki:https://www.kaggle.com/code/nuraylaraaar/ntel-mage-classification-cnn/edit
+📥 Dataset
 
-
-## 📥 Dataset
-
-Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet6060/intel-image-classification üzerinden indirebilirsiniz.
-
-
-
+Intel Image Classification veri setini https://www.kaggle.com/datasets/puneet6060/intel-image-classification indirebilirsiniz
